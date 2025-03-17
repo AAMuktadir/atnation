@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-button-prev {
+  color: #000000 !important;
+}
+
+.swiper-button-prev:after {
+  content: "\2190" !important;
+  display: none !important;
+}
+
+.swiper-button-next {
+  color: #000000 !important;
+}
+
+.swiper-button-next:after {
+  content: "\2192" !important;
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-from-bottom {
+  animation: slideInFromBottom 1.5s ease-out;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-from-right {
+  animation: slideInFromRight 1s ease-out;
+}
+
+.animated-text {
+  opacity: 0;
+  transform: translateY(100%);
+  animation: slide-in 1s forwards;
+}
+
+@keyframes slide-in {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Add this inside your global styles.css or a similar file */
+@keyframes scale-up {
+  0% {
+    transform: scale(0.75);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-scale-up {
+  animation: scale-up 0.5s ease-out forwards;
+}
+
+.animated-heading {
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slide-in 2s forwards;
+}
+
+.animated-heading-right {
+  opacity: 0;
+  transform: translateX(100vw);
+  animation: slide-in 2s forwards;
+}
