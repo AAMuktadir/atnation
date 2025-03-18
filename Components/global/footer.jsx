@@ -19,23 +19,17 @@ export default function Footer() {
         </div>
         <div className="flex items-center justify-center gap-4 text-white text-[28px] py-4">
           <span>
-            <Link href="https://www.facebook.com/PlanetXInc/" target={"_blank"}>
+            <Link href="https://www.facebook.com/" target={"_blank"}>
               <FaFacebook />
             </Link>
           </span>
           <span>
-            <Link
-              href="https://www.instagram.com/planetxinc?igsh=MXgxbzkydzAzM3FkOA=="
-              target={"_blank"}
-            >
+            <Link href="https://www.instagram.com/" target={"_blank"}>
               <PiInstagramLogoFill />
             </Link>
           </span>
           <span>
-            <Link
-              href="https://bd.linkedin.com/company/planet-x-incorporated"
-              target={"_blank"}
-            >
+            <Link href="https://bd.linkedin.com/" target={"_blank"}>
               <FaLinkedin />
             </Link>
           </span>
@@ -46,7 +40,7 @@ export default function Footer() {
             Dhaka-1212, Bangladesh
           </p>
 
-          <p>Planet X Inc Ltd. © Copyright 2024</p>
+          <p>ATnation © Copyright 2025</p>
         </div>
       </div>
     </>

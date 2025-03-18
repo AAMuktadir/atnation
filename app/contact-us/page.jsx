@@ -65,7 +65,7 @@ export default function page() {
         </div>
         <div className="w-full">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.1900500677943!2d90.41211617468119!3d23.776245787784816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c70c238f1ee1%3A0xd26985a110f395b9!2sPlanet%20X%20Inc.!5e0!3m2!1sen!2sbd!4v1712043977525!5m2!1sen!2sbd"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d258.4877840908179!2d90.41770932668278!3d23.77844990512702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7002a3c543d%3A0xcdaea7f0fc57f941!2sFEZA!5e0!3m2!1sen!2sbd!4v1742296868503!5m2!1sen!2sbd"
             width="100%"
             height="450"
             allowfullscreen=""
