@@ -6,6 +6,7 @@ import { PiInstagramLogoFill } from "react-icons/pi";
 import { FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
+  //comment
   return (
     <>
       <div className="bg-footer py-16">
