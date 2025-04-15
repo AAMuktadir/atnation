@@ -7,24 +7,26 @@ import { HelloSparkles } from "@/Components/home/helloComponent";
 import LatestUpdates from "@/Components/home/latestUpdates";
 
 import Header from "@/Components/global/header";
+import NewHome from "@/Components/home/newHome";
 
 export default function Home() {
   return (
     <main className="">
-      <Header />
-      <HeroSection />
+      <NewHome />
+      {/* <Header />
+      <HeroSection /> */}
       {/* <BiggerBetter /> */}
-      <CreativeDesign />
+      {/* <CreativeDesign />
       <SmartDevelopment />
-      <BrandIdentities />
+      <BrandIdentities /> */}
       {/* <ArtDirection />
         <InHouseSolutions />
         <CoolestProjects />
         <DevelopmentTools /> */}
 
-      <LatestUpdates />
+      {/* <LatestUpdates />
 
-      <HelloSparkles />
+      <HelloSparkles /> */}
     </main>
   );
 }

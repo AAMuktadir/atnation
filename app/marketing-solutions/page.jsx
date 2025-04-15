@@ -12,6 +12,7 @@ import EmailMarketing from "@/Components/digitalMarketing/emailMarketing";
 import TVC from "@/Components/digitalMarketing/tvc";
 import BrandingAndPrinting from "@/Components/digitalMarketing/brandingAndPrinting";
 import Campaign from "@/Components/digitalMarketing/campaign";
+import LayoutFooter from "@/Components/global/layoutFooter";
 
 export default function Page() {
   const singleItem = servicesData.find((item) => item.idx == "M");
@@ -69,6 +70,7 @@ export default function Page() {
           </div>
         </div> */}
       </div>
+      <LayoutFooter />
     </div>
   );
 }

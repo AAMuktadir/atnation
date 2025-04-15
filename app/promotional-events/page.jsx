@@ -4,6 +4,7 @@ import { servicesData } from "@/data/servicesData";
 import Image from "next/image";
 import GalleryComponent from "@/Components/global/galleryComponent";
 import { photos } from "@/data/galleryPhotos";
+import LayoutFooter from "@/Components/global/layoutFooter";
 
 export default function Page() {
   const singleItem = servicesData.find((item) => item.idx == "EM");
@@ -46,6 +47,7 @@ export default function Page() {
           ))}
         </div>
       </div> */}
+      <LayoutFooter />
     </div>
   );
 }

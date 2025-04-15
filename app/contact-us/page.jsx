@@ -3,6 +3,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import Header from "@/Components/global/header";
+import LayoutFooter from "@/Components/global/layoutFooter";
 
 export default function page() {
   return (
@@ -74,6 +75,7 @@ export default function page() {
           ></iframe>
         </div>
       </div>
+      <LayoutFooter />
     </>
   );
 }

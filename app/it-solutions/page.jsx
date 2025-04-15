@@ -3,6 +3,7 @@ import Header from "@/Components/global/header";
 import DevelopmentTools from "@/Components/home/developmentTools";
 import CoolestProjects from "@/Components/home/coolestProjects";
 import { servicesData } from "@/data/servicesData";
+import LayoutFooter from "@/Components/global/layoutFooter";
 
 export default function Page() {
   const singleItem = servicesData.find((item) => item.idx == "IT");
@@ -46,6 +47,7 @@ export default function Page() {
           </div>
         </div> */}
       </div>
+      <LayoutFooter />
     </div>
   );
 }
