@@ -3,6 +3,7 @@
 import { useRef, useState } from "react";
 import Image from "next/image";
 import { ourWorks } from "@/utils/data/creativeSolutions";
+import { motionGraphics } from "@/utils/data/creativeSolutions";
 
 export default function SlideButton() {
   const [unlocked, setUnlocked] = useState(false);
@@ -56,10 +57,10 @@ export default function SlideButton() {
   };
 
   return (
-    <div className="py-8 sm:py-16 flex flex-col items-center justify-start bg-gray-100 dark:bg-black px-4">
+    <div className="py-8 sm:py-16 flex flex-col items-center justify-start bg-gray-100 dark:bg-[#2C063B] px-4">
       <div
         ref={containerRef}
-        className="relative w-full max-w-md h-16 bg-gray-300 dark:bg-gray-800 rounded-full overflow-hidden shadow-lg"
+        className="relative w-full max-w-md h-16 bg-gray-300 dark:bg-white/30 rounded-full overflow-hidden shadow-lg"
       >
         <div className="absolute inset-0 flex items-center justify-center text-gray-600 dark:text-gray-300 font-medium text-base select-none">
           {unlocked ? "Our works!" : "Slide to see our work"}
@@ -70,7 +71,7 @@ export default function SlideButton() {
             ref={sliderRef}
             onMouseDown={handleStart}
             onTouchStart={handleStart}
-            className="absolute top-1 left-1 h-14 w-14 bg-white dark:bg-gray-100 rounded-full shadow-md flex items-center justify-center cursor-pointer transition-none"
+            className="absolute top-1 left-1 h-14 w-14 bg-white dark:bg-gray-100 rounded-full shadow-md flex items-center justify-center cursor-pointer transition-none "
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -109,6 +110,30 @@ export default function SlideButton() {
                     width={500}
                     alt="Our Work Image"
                     className="w-full h-auto object-cover"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <p className="mt-6 text-xl font-semibold text-gray-800 dark:text-white text-center">
+            🎉 Some of our motion graphics!
+          </p>
+
+          <div className="w-full px-4 sm:px-20 py-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+              {motionGraphics.map((data, id) => (
+                <div
+                  key={id}
+                  className="rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 bg-white dark:bg-gray-800"
+                >
+                  <video
+                    className="w-full h-full object-cover"
+                    src={data.video}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
                   />
                 </div>
               ))}

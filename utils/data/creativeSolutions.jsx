@@ -38,3 +38,24 @@ export const ourWorks = [
     description: "",
   },
 ];
+
+export const motionGraphics = [
+  {
+    id: 1,
+    name: "Tapout",
+    video: "/video/creativeDesign/Tapout-1.mp4",
+    description: "",
+  },
+  {
+    id: 2,
+    name: "Bangla Panda",
+    video: "/video/creativeDesign/BanglaPanda01.mp4",
+    description: "",
+  },
+  {
+    id: 3,
+    name: "SuperSign Cables",
+    video: "/video/creativeDesign/Supersign-01.mp4",
+    description: "",
+  },
+];

@@ -8,7 +8,7 @@ export default function NewHome() {
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="/video/Hero-video-03.mp4"
+        src="/video/Hero-video-06.mp4"
         autoPlay
         loop
         muted
