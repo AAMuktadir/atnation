@@ -15,8 +15,8 @@ export default function Header() {
 
   return (
     <nav className="bg-black text-white p-4 px-4 sm:px-12">
-      <div className="container mx-auto flex justify-between items-center z-50">
-        <div className="">
+      <div className="container mx-auto flex justify-center items-center z-50 w-full pt-8">
+        {/* <div className="">
           <Link href={"/"}>
             <Image
               src={"/Global/Logo.png"}
@@ -33,7 +33,7 @@ export default function Header() {
               className="block sm:hidden"
             />
           </Link>
-        </div>
+        </div> */}
         <div className="hidden md:flex items-center space-x-8">
           <Link
             href="/"

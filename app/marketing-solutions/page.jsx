@@ -13,26 +13,30 @@ import TVC from "@/Components/digitalMarketing/tvc";
 import BrandingAndPrinting from "@/Components/digitalMarketing/brandingAndPrinting";
 import Campaign from "@/Components/digitalMarketing/campaign";
 import LayoutFooter from "@/Components/global/layoutFooter";
+import CreativeSolutionAnimation from "@/Components/otherComponents/animation/creativeSolutions";
+import SlideButton from "@/Components/digitalMarketing/slideButton";
 
 export default function Page() {
   const singleItem = servicesData.find((item) => item.idx == "M");
   return (
     <div>
       <Header />
-      <div className="bg-black py-8">
-        <section className="text-white pb-16 px-4 sm:px-36">
+      <CreativeSolutionAnimation />
+      <SlideButton />
+      <div className="">
+        {/* <section className="text-white pb-16 px-4 sm:px-36">
           <h3 className="text-3xl sm:text-5xl">Lift your business </h3>{" "}
           <p className="py-4 font-medium">
             to new heights with our digital marketing services. Stay connected
             with us and get your digital marketing strategy in place
           </p>{" "}
-        </section>
+        </section> */}
 
-        <div className="px-4 sm:px-36 py-12 flex flex-col gap-20">
+        {/* <div className="px-4 sm:px-36 py-12 flex flex-col gap-20">
           <MotionGraphics />
           <IdeaAndBrand />
           <GoogleAnalytics />
-          {/* <MobileApplication /> */}
+
 
           <Seo />
           <EmailMarketing />
@@ -40,7 +44,7 @@ export default function Page() {
           <BrandingAndPrinting />
           <Campaign />
           <MarketResearch />
-        </div>
+        </div> */}
 
         {/* <div className="pt-20">
           <OurClients />
