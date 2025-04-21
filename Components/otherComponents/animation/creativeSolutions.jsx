@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import Spline from "@splinetool/react-spline";
-import Link from "next/link";
 
 export default function CreativeSolutionAnimation() {
   return (

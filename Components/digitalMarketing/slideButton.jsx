@@ -57,7 +57,7 @@ export default function SlideButton() {
   };
 
   return (
-    <div className="py-8 sm:py-16 flex flex-col items-center justify-start bg-gray-100 dark:bg-[#2C063B] px-4">
+    <div className="py-8 sm:py-16 flex flex-col items-center justify-start bg-gray-100 dark:bg-[#1f032b] px-4">
       <div
         ref={containerRef}
         className="relative w-full max-w-md h-16 bg-gray-300 dark:bg-white/30 rounded-full overflow-hidden shadow-lg"

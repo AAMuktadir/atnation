@@ -15,7 +15,7 @@ export default function Header() {
 
   return (
     <nav className="bg-black text-white p-4 px-4 sm:px-12">
-      <div className="container mx-auto flex justify-center items-center z-50 w-full pt-8">
+      <div className="container mx-auto flex justify-end sm:justify-center items-center z-50 w-full pt-8">
         {/* <div className="">
           <Link href={"/"}>
             <Image
