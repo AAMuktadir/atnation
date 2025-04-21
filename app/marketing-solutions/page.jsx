@@ -1,23 +1,22 @@
 import React from "react";
 import Header from "@/Components/global/header";
-import { servicesData } from "@/data/servicesData";
-import Image from "next/image";
-import MotionGraphics from "@/Components/digitalMarketing/motionGraphics";
-import IdeaAndBrand from "@/Components/digitalMarketing/ideaGeneration";
-import GoogleAnalytics from "@/Components/digitalMarketing/googleAnalytics";
-import MobileApplication from "@/Components/digitalMarketing/mobileApplication";
-import MarketResearch from "@/Components/digitalMarketing/MarketResearch";
-import Seo from "@/Components/digitalMarketing/seo";
-import EmailMarketing from "@/Components/digitalMarketing/emailMarketing";
-import TVC from "@/Components/digitalMarketing/tvc";
-import BrandingAndPrinting from "@/Components/digitalMarketing/brandingAndPrinting";
-import Campaign from "@/Components/digitalMarketing/campaign";
+// import { servicesData } from "@/data/servicesData";
+// import Image from "next/image";
+// import MotionGraphics from "@/Components/digitalMarketing/motionGraphics";
+// import IdeaAndBrand from "@/Components/digitalMarketing/ideaGeneration";
+// import GoogleAnalytics from "@/Components/digitalMarketing/googleAnalytics";
+// import MobileApplication from "@/Components/digitalMarketing/mobileApplication";
+// import MarketResearch from "@/Components/digitalMarketing/MarketResearch";
+// import Seo from "@/Components/digitalMarketing/seo";
+// import EmailMarketing from "@/Components/digitalMarketing/emailMarketing";
+// import TVC from "@/Components/digitalMarketing/tvc";
+// import BrandingAndPrinting from "@/Components/digitalMarketing/brandingAndPrinting";
+// import Campaign from "@/Components/digitalMarketing/campaign";
 import LayoutFooter from "@/Components/global/layoutFooter";
 import CreativeSolutionAnimation from "@/Components/otherComponents/animation/creativeSolutions";
 import SlideButton from "@/Components/digitalMarketing/slideButton";
 
 export default function Page() {
-  const singleItem = servicesData.find((item) => item.idx == "M");
   return (
     <div>
       <Header />
