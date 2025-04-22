@@ -4,7 +4,7 @@ import Spline from "@splinetool/react-spline";
 
 export default function TestAnimation() {
   return (
-    <div className="">
+    <div className="w-full h-screen">
       <Spline scene="https://prod.spline.design/J-29532UxVlnfs-Q/scene.splinecode" />
     </div>
   );
