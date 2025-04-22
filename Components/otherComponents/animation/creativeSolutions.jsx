@@ -1,15 +1,12 @@
 "use client";
 import React from "react";
-import dynamic from "next/dynamic";
-
-const SplineWrapper = dynamic(() => import("./splineWrapperMarketing"), {
-  ssr: false,
-});
+import Spline from "@splinetool/react-spline";
 
 export default function CreativeSolutionAnimation() {
   return (
-    <div className="flex flex-col items-center justify-center">
-      <SplineWrapper />
+    <div className="w-full h-screen">
+      <Spline scene="https://prod.spline.design/J-29532UxVlnfs-Q/scene.splinecode" />
+      <div className="absolute inset-0 flex items-center justify-center text-white pointer-events-none"></div>
     </div>
   );
 }
