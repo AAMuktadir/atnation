@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "@/Components/global/header";
 import { servicesData } from "@/data/servicesData";
-import Image from "next/image";
 import GalleryComponent from "@/Components/global/galleryComponent";
 import { photos } from "@/data/galleryPhotos";
 import LayoutFooter from "@/Components/global/layoutFooter";
