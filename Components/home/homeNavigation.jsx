@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { Paths } from "@/utils/navigation";
+import { Paths } from "@/data/navigation";
 import { usePathname } from "next/navigation";
 import React, { useState } from "react";
 

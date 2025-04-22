@@ -2,7 +2,7 @@ export const Paths = [
   {
     id: 1,
     title: "Creative Solutions",
-    path: "/marketing-solutions",
+    path: "/creative-solutions",
   },
 
   {
