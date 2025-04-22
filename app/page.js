@@ -8,13 +8,11 @@ import LatestUpdates from "@/Components/home/latestUpdates";
 
 import Header from "@/Components/global/header";
 import NewHome from "@/Components/home/newHome";
-import TestAnimation from "@/Components/testAnimation";
 
 export default function Home() {
   return (
     <main className="">
       <NewHome />
-      <TestAnimation />
       {/* <Header />
       <HeroSection /> */}
       {/* <BiggerBetter /> */}
