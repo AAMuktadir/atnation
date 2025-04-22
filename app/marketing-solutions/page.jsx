@@ -14,7 +14,7 @@ import Header from "@/Components/global/header";
 // import BrandingAndPrinting from "@/Components/digitalMarketing/brandingAndPrinting";
 // import Campaign from "@/Components/digitalMarketing/campaign";
 import LayoutFooter from "@/Components/global/layoutFooter";
-import CreativeSolutionAnimation from "@/Components/otherComponents/animation/creativeSolutions";
+// import CreativeSolutionAnimation from "@/Components/otherComponents/animation/creativeSolutions";
 
 import SlideButton from "@/Components/digitalMarketing/slideButton";
 
@@ -22,7 +22,7 @@ export default function Page() {
   return (
     <div>
       <Header />
-      <CreativeSolutionAnimation />
+      {/* <CreativeSolutionAnimation /> */}
       <SlideButton />
       <div className="">
         {/* <section className="text-white pb-16 px-4 sm:px-36">
