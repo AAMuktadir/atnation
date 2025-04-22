@@ -62,8 +62,8 @@ export default function SlideButton() {
         ref={containerRef}
         className="relative w-full max-w-md h-16 bg-gray-300 dark:bg-white/30 rounded-full overflow-hidden shadow-lg"
       >
-        <div className="absolute inset-0 flex items-center justify-center text-gray-600 dark:text-gray-300 font-medium text-base select-none">
-          {unlocked ? "Our works!" : "Slide to see our work"}
+        <div className="absolute inset-0 flex items-center justify-center text-gray-600 dark:text-gray-300 font-medium text-base select-none uppercase">
+          {unlocked ? "Our work!" : "Slide to see our Work"}
         </div>
 
         {!unlocked && (
