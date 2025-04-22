@@ -1,6 +1,9 @@
 "use client";
-import React from "react";
-import Spline from "@splinetool/react-spline";
+import dynamic from "next/dynamic";
+
+const Spline = dynamic(() => import("@splinetool/react-spline"), {
+  ssr: false,
+});
 
 export default function TestAnimation() {
   return (
