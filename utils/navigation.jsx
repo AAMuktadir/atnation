@@ -1,13 +1,13 @@
 export const Paths = [
   {
     id: 1,
-    title: "Creative Solutions",
-    path: "/creative-solutions",
+    title: "Creative Solution",
+    path: "/marketing-solutions",
   },
 
   {
     id: 2,
-    title: "IT & Innovation",
+    title: "IT Innovation",
     path: "/it-solutions",
   },
 

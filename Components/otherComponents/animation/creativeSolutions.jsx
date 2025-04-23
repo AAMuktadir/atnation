@@ -6,6 +6,7 @@ export default function CreativeSolutionAnimation() {
   return (
     <div className="w-full h-screen">
       <Spline scene="https://prod.spline.design/J-29532UxVlnfs-Q/scene.splinecode" />
+      <div className="absolute inset-0 flex items-center justify-center text-white pointer-events-none"></div>
     </div>
   );
 }

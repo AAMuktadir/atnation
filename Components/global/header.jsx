@@ -16,6 +16,24 @@ export default function Header() {
   return (
     <nav className="bg-black text-white p-4 px-4 sm:px-12">
       <div className="container mx-auto flex justify-end sm:justify-center items-center z-50 w-full pt-8">
+        {/* <div className="">
+          <Link href={"/"}>
+            <Image
+              src={"/Global/Logo.png"}
+              height={150}
+              width={150}
+              alt="logo"
+              className="hidden sm:block"
+            />
+            <Image
+              src={"/Global/Logo.png"}
+              height={90}
+              width={90}
+              alt="logo"
+              className="block sm:hidden"
+            />
+          </Link>
+        </div> */}
         <div className="hidden md:flex items-center space-x-8">
           <Link
             href="/"
@@ -44,14 +62,14 @@ export default function Header() {
           </Link>
 
           <Link
-            href="/creative-solutions"
+            href="/marketing-solutions"
             className={` ${
-              pathname == "/creative-solutions"
+              pathname == "/marketing-solutions"
                 ? "text-footer"
                 : "hover:text-footer"
             }`}
           >
-            Creative Solutions
+            Marketing Solutions
           </Link>
 
           <Link

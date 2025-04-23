@@ -1,5 +1,6 @@
 import React from "react";
 import WhatMakesUsDifferent from "@/Components/about/wmudfo";
+import { HelloSparkles } from "@/Components/home/helloComponent";
 import Header from "@/Components/global/header";
 import LayoutFooter from "@/Components/global/layoutFooter";
 
@@ -23,6 +24,17 @@ export default function page() {
           </p>
           <div className="sm:flex items-center justify-center gap-12">
             <div className="sm:w-1/2">
+              {/* <h3 className="text-white uppercase text-xl sm:text-5xl text-left font-medium pt-2 sm:pt-8">
+                Success Stories
+              </h3> */}
+              {/* <Image
+                src={"/image/SuccesStories.png"}
+                height={400}
+                width={400}
+                alt="image"
+                className="py-8"
+              /> */}
+
               <video width="400" height="400" autoPlay loop muted className="">
                 <source src="/image/anim/aboutAnim.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
@@ -45,6 +57,7 @@ export default function page() {
           </div>
         </div>
         <WhatMakesUsDifferent />
+        <HelloSparkles />
         <LayoutFooter />
       </div>
     </>
