@@ -1,6 +1,5 @@
 import React from "react";
 import WhatMakesUsDifferent from "@/Components/about/wmudfo";
-import { HelloSparkles } from "@/Components/home/helloComponent";
 import Header from "@/Components/global/header";
 import LayoutFooter from "@/Components/global/layoutFooter";
 
@@ -46,7 +45,6 @@ export default function page() {
           </div>
         </div>
         <WhatMakesUsDifferent />
-        <HelloSparkles />
         <LayoutFooter />
       </div>
     </>
