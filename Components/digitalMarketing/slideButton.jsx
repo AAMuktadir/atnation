@@ -15,6 +15,9 @@ export default function SlideButton() {
     const slider = sliderRef.current;
     const container = containerRef.current;
 
+    // Disable text selection while dragging
+    document.body.style.userSelect = "none";
+
     const startX = e.clientX || e.touches?.[0]?.clientX;
     const sliderRect = slider.getBoundingClientRect();
     offsetX.current = startX - sliderRect.left;
@@ -35,6 +38,9 @@ export default function SlideButton() {
     };
 
     const onEnd = () => {
+      // Re-enable text selection after dragging
+      document.body.style.userSelect = "";
+
       if (!unlocked) slider.style.left = "0px";
       removeListeners();
     };
